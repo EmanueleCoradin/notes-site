@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: notes-site
+  baseUrl: emanuelecoradin.github.io/notes-site
   ignorePatterns:
     - private
     - templates
