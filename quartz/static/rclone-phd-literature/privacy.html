@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Privacy policy for the personal rclone-phd-literature Google Drive OAuth application." />
+    <title>Privacy Policy — rclone-phd-literature</title>
+    <style>
+      :root { color-scheme: light dark; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.6; }
+      body { max-width: 46rem; margin: 3rem auto; padding: 0 1.25rem; }
+      h1, h2 { line-height: 1.25; }
+      a { color: #357b91; }
+      small { opacity: .8; }
+      code { overflow-wrap: anywhere; }
+      footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #9998; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p><a href="./index.html">← Application home</a></p>
+      <h1>Privacy Policy — rclone-phd-literature</h1>
+      <p><strong>Effective date:</strong> 18 November 2026</p>
+      <h2>Purpose and operator</h2>
+      <p><code>rclone-phd-literature</code> is a personal, single-user OAuth client operated by the owner of the Google account. It enables the open-source rclone program running on the owner's Linux laptop to synchronize the <code>PhD Literature</code> directory with Google Drive.</p>
+      <h2>Google data accessed and how it is used</h2>
+      <p>The application requests the Google Drive scope, which technically permits viewing, creating, modifying, and deleting files across the authorized Drive account. The configured synchronization task uses this access only to list and synchronize files in the designated <code>PhD Literature</code> folder. File names, metadata, file contents, and changes needed for synchronization are processed by rclone on the local device and by Google Drive to deliver the service.</p>
+      <p>A separate <code>PhD Literature Reserved</code> folder is kept outside the synchronized directory and is not part of the application's configured Google Drive synchronization.</p>
+      <h2>Storage and security</h2>
+      <p>The files selected for synchronization are stored on the owner's laptop and in the owner's Google Drive account. OAuth credentials are stored locally in rclone's configuration file; synchronization state and diagnostic logs may also be stored locally. Transfers between rclone and Google use HTTPS. The application does not operate its own server for collecting or storing document content.</p>
+      <p>The public information pages do not embed analytics scripts or set application cookies. GitHub Pages and Google may process network and account data under their respective policies.</p>
+      <h2>Sharing, advertising, and AI training</h2>
+      <p>The application does not sell Google user data, use it for advertising, or send synchronized content to AI models. It does not independently share Drive data with other users or services beyond the Google Drive service needed for synchronization. Information received from Google APIs is used in accordance with the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+      <h2>Retention and revocation</h2>
+      <p>Files remain in the local directory and Google Drive until the account owner changes or deletes them; bidirectional synchronization may propagate deletions. Local logs and synchronization state are managed on the laptop. The account owner can stop the synchronization service, remove files, and revoke OAuth access at <a href="https://myaccount.google.com/connections">Google Account → Third-party connections</a>. Revoking access prevents further API use but does not automatically remove files already synchronized to either location.</p>
+      <h2>Updates and contact</h2>
+      <p>Changes to this policy will be published on this page with an updated effective date. For questions, use <a href="https://github.com/EmanueleCoradin/notes-site/issues">GitHub Issues</a> without disclosing credentials or private document contents.</p>
+    </main>
+    <footer><small><a href="./index.html">Application home</a> · Last updated 18 November 2026</small></footer>
+  </body>
+</html>
