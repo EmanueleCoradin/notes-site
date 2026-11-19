@@ -48,6 +48,11 @@ jobs:
       - name: Initialize Quartz plugins from config
         run: npm run install-plugins
 
+      - name: Diagnose existing Pages workflow formatting
+        if: runner.os == 'Linux'
+        run: |
+          npx prettier .github/workflows/deploy.yml > /tmp/deploy-formatted.yml
+          git diff --no-index -- .github/workflows/deploy.yml /tmp/deploy-formatted.yml || true
       - name: Check types and style
         run: npm run check
 
