@@ -7,10 +7,12 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: localhost/notes-site
+  baseUrl: emanuelecoradin.github.io/notes-site
   ignorePatterns:
     - private
-    - templates
+    - Templates/**
+    - README.md
+    - AGENTS.md
     - .obsidian
   theme:
     fontOrigin: googleFonts
