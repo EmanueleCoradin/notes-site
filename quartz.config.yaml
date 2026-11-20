@@ -10,7 +10,9 @@ configuration:
   baseUrl: localhost/notes-site
   ignorePatterns:
     - private
-    - templates
+    - Templates/**
+    - README.md
+    - AGENTS.md
     - .obsidian
   theme:
     fontOrigin: googleFonts

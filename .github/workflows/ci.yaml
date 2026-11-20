@@ -11,13 +11,12 @@ on:
 
 jobs:
   build-and-test:
-    if: ${{ github.repository == 'jackyzha0/quartz' }}
     strategy:
       matrix:
         os: [windows-latest, macos-latest, ubuntu-latest]
     runs-on: ${{ matrix.os }}
     permissions:
-      contents: write
+      contents: read
     steps:
       - uses: actions/checkout@v7
         with:
@@ -46,8 +45,8 @@ jobs:
 
       - run: npm install
 
-      - name: Install Quartz plugins
-        run: npx quartz plugin install
+      - name: Initialize Quartz plugins from config
+        run: npm run install-plugins
 
       - name: Check types and style
         run: npm run check
