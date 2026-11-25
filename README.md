@@ -1,17 +1,16 @@
-# Quartz v5
+# My Working Notes
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+**Website:** [https://emanuelecoradin.github.io/notes-site/](https://emanuelecoradin.github.io/notes-site/)
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+A personal knowledge base covering physics, PhD research, computing, and independent interests. The notes are written in Obsidian and published as a website using [Quartz v5](https://quartz.jzhao.xyz/).
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+## Repositories
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+- [notes](https://github.com/EmanueleCoradin/notes) — source Markdown notes and Obsidian vault.
+- [notes-site](https://github.com/EmanueleCoradin/notes-site) — website configuration and publishing infrastructure.
 
-## Sponsors
+The notes are included as a Git submodule in `content/`. The website is deployed through GitHub Pages.
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+## Built with Quartz
+
+This repository is based on [Quartz](https://github.com/jackyzha0/quartz), an open-source tool for publishing digital gardens and notes. See the [Quartz documentation](https://quartz.jzhao.xyz/) for more information.
