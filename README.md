@@ -1,6 +1,6 @@
 # My Working Notes
 
-**[Visit the website](https://emanuelecoradin.github.io/notes-site/)**
+**Website:** [https://emanuelecoradin.github.io/notes-site/](https://emanuelecoradin.github.io/notes-site/)
 
 A personal knowledge base covering physics, PhD research, computing, and independent interests. The notes are written in Obsidian and published as a website using [Quartz v5](https://quartz.jzhao.xyz/).
 
